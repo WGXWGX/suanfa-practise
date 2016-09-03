@@ -16,7 +16,7 @@ int main(){
 	}
 	for(x=0; x<n; x++){
 		for(y=0;y<n;y++)
-			printf("%3d", a[x][y]);
+			printf("%3d", a[x][y]);//3d 输出的每个结果，都是3位数的长度——d 指的是每个前都有2个空格.3f 小数点3位
 		printf("\n");
 	}
 	return 0;
